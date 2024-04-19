@@ -25,7 +25,7 @@ You must output the SQL query that answers the question in a single line. You mu
 prompt = PromptTemplate.from_template(template=template)
 
 client = Groq(
-    api_key=os.getenv("GROQ_API_KEY"),
+    api_key="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"
 )
 
 def groq_infer(prompt):
@@ -45,7 +45,7 @@ def groq_infer(prompt):
 # infer - pipeline -> pipe()
 def main():
     st.set_page_config(page_title="Database Administrator", page_icon="📊", layout="wide")
-    st.title("Mixtral Database Administrator ft. Groq")
+    st.title("Connecting Conversations to CSV Files Effortlessly. ")
 
     col1, col2 = st.columns([2, 3])
 
