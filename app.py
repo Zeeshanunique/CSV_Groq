@@ -25,7 +25,7 @@ You must output the SQL query that answers the question in a single line. You mu
 prompt = PromptTemplate.from_template(template=template)
 
 client = Groq(
-    api_key="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"
+    api_key="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"
 )
 
 def groq_infer(prompt):
